@@ -143,7 +143,7 @@ class Parser {
         return new ParseError();
     }
 
-    private void sunchronize() {
+    private void synchronize() {
         advance();
 
         while (!isAtEnd()) {
